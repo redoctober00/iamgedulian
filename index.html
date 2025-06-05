@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="script.js" ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -14,7 +15,7 @@
     <!-- Navigation -->
     <nav id="navbar">
       <div class="container nav-container">
-        <a href="#home" class="logo">EJ.G</a>
+        <a href="#home" class="logo">EJ</a>
         <ul class="nav-links">
           <li><a href="#home" class="nav-link">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
@@ -36,15 +37,15 @@
         <div class="hero-content">
           <div class="hero-text">
             <h1 class="hero-title">
-              <span class="name">Gedulian, Earl</span>
-              <span class="role">3rd Year BSIT Student</span>
+              <span class="name">Earl Gedulian</span>
+            
             </h1>
             <p class="hero-description">
              
             </p>
             <div class="hero-buttons">
-              <a href="#projects" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+              <a href="#projects" class="btn btn-primary">Projects</a>
+              <a href="#contact" class="btn btn-secondary">Links</a>
             </div>
           </div>
      
@@ -62,49 +63,90 @@
               about building web applications and developing apps. 
             </p>
               <p class="about-description">
-              Currently living in The Philippines, and I'm currently focused on
-              honing my skills in web development with our ongoing thesis project. 
+              Living in The Philippines and currently focused on
+              honing my skills in web development with our ongoing capstone project. 
             </p>
            <p class="about-description">
               And of course, I also like to play games, watch movies, and listen to music.
+           Living alone since since high school with the help of remmitances from my hardworking mother.
+
             </p>
+            
             
           </div>
           <div class="about-image">
             <img
-              src=""
-              alt=""
+              src="i dont have any good photos im sorry.jpg"
+              alt="me"
               class="profile-image"
             />
     </section>
 
-    <!-- Projects Section -->
+     <!-- Projects Section -->
     <section id="projects" class="projects">
       <div class="container">
         <h2 class="section-title">Projects</h2>
         <div class="projects-grid">
+          <!-- Project 1 -->
           <div class="project-card" data-category="web">
             <div class="project-image">
-    
+              <img src="kcs.png" alt="Online Appointment System Screenshot" />
               <div class="project-overlay">
-
-                <a href="https://github.com/" class="project-link" target="_blank" rel="noopener">Web</a>
+                <a href="https://github.com/" class="project-link" target="_blank" rel="noopener">Live Demo</a>
                 <a href="https://github.com/" class="project-link" target="_blank" rel="noopener">GitHub Repo</a>
               </div>
             </div>
             <div class="project-info">
-              <h3 class="project-title">Online Appointment System</h3>
+              <h3 class="project-title">Online Appointment System for KCS Auto Repair Shop</h3>
               <p class="project-description">
                 A web-based system that allows customers to schedule auto repair services online for convenience and efficiency tailored for KCS Auto Repair Shop located in Kanlaon St. Quezon City.
               </p>
               <div class="project-tags">
-                <span class="tag">Php</span>
+                <span class="tag">PHP</span>
                 <span class="tag">JavaScript</span>
                 <span class="tag">MySQL</span>
                 <span class="tag">CSS/HTML</span>
               </div>
             </div>
           </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="web">
+            <div class="project-image" >
+          <img src="navSTI.png" alt="Online Appointment System Screenshot" />
+
+              <div class="project-overlay">
+                <a href="https://github.com/" class="project-link" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/" class="project-link" target="_blank" rel="noopener">GitHub Repo</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">navSTI</h3>
+              <p class="project-description">
+                An indoor navigation system designed for STI College Fairview, helping students and visitors find their way around the campus efficiently. Made with Ant Design and ReactJS for our Technopreneurship finals.
+              </p>
+              <div class="project-tags">
+                <span class="tag">ReactJS</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+          </div>
+
+         
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Skills Section -->
@@ -136,6 +178,15 @@
                 </div>
                 <span class="skill-percentage">80%</span>
               </div>
+                <div class="skill-item">
+                <span>UX/UX</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+              </div>
+
+
           <div class="skills-category">
             <h3>Backend Development</h3>
             <div class="skill-items">
@@ -179,7 +230,6 @@
         <h2 class="section-title">Let's Work Together</h2>
         <div class="contact-content">
           <div class="contact-info">
-           <h3>Work with Me</h3>
             <p>
             I'm an aspiring developer, always eager to learn and grow. I'm open to new opportunities and interesting project, personally prefer working with networks.
             </p>
@@ -197,7 +247,7 @@
                     />
                   </svg>
                 </div>
-                <span>johnearlgedulian@gmail.com</span>
+                <span>earlhedulyan@gmail.com</span>
               </div>
               <div class="contact-method">
                 <div class="contact-icon">
@@ -244,7 +294,7 @@
                 </svg>
                 GitHub
               </a>
-               <a href="https://www.linkedin.com/in/john-earl-gedulian-ba982a368/" class="social-link" target="_blank" a>
+               <a href="https://www.linkedin.com/in/john-earl-gedulian-ba982a368//" class="social-link" target="_blank" a>
                 <svg
                   width="20"
                   height="20"
@@ -261,8 +311,10 @@
 
     <!-- Footer -->
     <footer class="footer">
-    
+        
     
     </footer>
   </body>
 </html>
+
+
